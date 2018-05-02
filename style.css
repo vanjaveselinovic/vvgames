@@ -68,16 +68,20 @@ body {
 		max-width: 200px;
 	}
 
-	.game-info {
+	.links {
 		position: absolute;
 		bottom: 50px;
 		left: 50%;
 		transform: translate(-50%, 0);
 	}
 
-	.game-info img {
-		width: 150px;
-	}
+		.game-info {
+			display: inline-block;
+		}
+
+			.game-info img {
+				width: 150px;
+			}
 
 #roadline {
 	background-image: url(images/bg-roadline.jpg);
